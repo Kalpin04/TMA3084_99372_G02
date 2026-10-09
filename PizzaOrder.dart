@@ -32,7 +32,7 @@ void main() {
   int quantity = int.parse(stdin.readLineSync()!);
   
 
-  //display total price
+  //display total
   int totalPayment = pizza * quantity;
   print("Your total price is: $totalPayment");
 }
